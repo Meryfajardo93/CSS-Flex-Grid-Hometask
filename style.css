@@ -3,38 +3,48 @@ body {
     font-family: 'Oswald';
 }
 
-
-
-
 .background1 {
-    background: url(assets/Desktop_Backgrounds_1920x1200_6\ 3.png) no-repeat;
-    background-size: 100% auto;
-    height: 50%;
-    width: auto;
-    padding-top: 15%;
+    background: url(assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
+    background-repeat: none;
+    background-size: 100% 100%;
+    padding-top: 2%;
     padding-bottom: 15%;
-    margin: 0%;
+    margin: 0% 1%;
     border: 0%;
- 
+    
+    
 }
 
-.background1 img {
-    width: 5%;
-    height: auto;
-    margin-left: 47%;
-   
-   
-}
-
-.background1 h1 {
+.background1 > * {
     color:#FFFFFb;
     font-style: normal;
     text-align: center;
-    font-size: 48px;
-    font-weight: 400;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    text-transform: uppercase;
     line-height: 64px;
-    top: 50%;
-  
+
+}
+
+
+.columns a {
+    text-decoration: none;
+    color: #FFFFFb;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
        
 }
 
@@ -47,22 +57,20 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
     top: 50%;
-  
 }
-   
 
-    
+
 .background2 {
     background: url(assets/2.png);
-    background-size: 100% 100%;
+    background-size: auto;
+    font-style: normal;
+    text-align: center;
     height: auto;
     width: auto;
     padding-top: 1%;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     margin: 0%;
     border: 0%;
-   
-
 }
 
 .background2 h2 {
@@ -93,17 +101,29 @@ body {
     
 }
 
+.background2 button {
+    outline: none;
+    border: none;
+    background:  #55C2D8;
+    padding: 1rem;
+    border-radius: 18px;
+    color: white;
+    
+
+}
+
 .background3 {
+    background: url(assets/3.png);
     background: url(assets/IMG_1334_72dpi_RGB_\ 1.png);
-    background-size: 100% 100%;
+    background-size: auto;
+    font-style: normal;
+    text-align: center;
     height: auto;
     width: auto;
     padding-top: 5%;
     padding-bottom: 5%;
     margin: 0%;
     border: 0%;
-  
-    
 }
 
 .background3 h2 {
@@ -124,6 +144,12 @@ body {
     text-align: center;
     top: 50%;
     left: 20%;
+    letter-spacing: 0.1em;
+    line-height: 26px;
+    left: 15%;
+    right: 14%;
+    left: 46%;
+    right: 46%;
 }
 
 .background4 {
@@ -149,7 +175,7 @@ body {
     color: rgba(255, 255, 255, 0.4);
 }
 
-.background4 span{
+.background4 span {
 
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -163,6 +189,12 @@ body {
     left: 100%;
     right: 3000px;
 
+}
+
+.columns {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 
